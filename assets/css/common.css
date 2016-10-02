@@ -1,0 +1,55 @@
+body {
+  font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  color: #3e4855;
+
+  background-color: #FAFCFE;
+  padding-top: 100px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+  background-color: transparent;
+}
+.navbar-brand {
+  font-weight: 300;
+  width: 200px;
+  height: 80px;
+  line-height: 50px;
+ }
+.bg-gradient-9 {
+  background: -moz-linear-gradient(315deg, #210a6f 0%, #2698b8 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #210a6f), color-stop(100%, #2698b8)); /* safari4+,chrome */
+  background: -webkit-linear-gradient(315deg, #210a6f 0%, #2698b8 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(315deg, #210a6f 0%, #2698b8 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(315deg, #210a6f 0%, #2698b8 100%); /* ie10+ */
+  background: linear-gradient(135deg, #210a6f 0%, #2698b8 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#210a6f', endColorstr='#2698b8',GradientType=0 ); /* ie6-9 */
+}
+.navbar-inverse {
+  border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: transparent;
+}
+
+.app_header {
+  margin-bottom: 60px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #257aa8;
+  border-color: #257aa8;
+}
+
+.btn {
+  font-size: 12px;
+  border-radius: 2px;
+}
